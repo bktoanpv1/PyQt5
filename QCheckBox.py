@@ -21,8 +21,6 @@ class Learn_QCheckBox(QMainWindow):
             layout.addWidget(opt)
         #Cài đặt layout cho QGroupBox instance
         groupbox.setLayout(layout)
-        
-
         self.setCentralWidget(groupbox)
 
     def callback(self):
